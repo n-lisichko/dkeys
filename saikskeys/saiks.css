@@ -1,11 +1,11 @@
 @font-face {
  font-family: "Iosevka-regular";
- src: url("/dkeys/iosevkaregular.ttf") format("truetype");
+ src: url("dkeys/iosevkaregular.ttf") format("truetype");
 }
 
 @font-face {
  font-family: "Iosevka-italic";
- src: url("/dkeys/iosevkaitalic.ttf") format("truetype");
+ src: url("dkeys/iosevkaitalic.ttf") format("truetype");
 }
 
 body
