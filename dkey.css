@@ -59,12 +59,31 @@ body
 	background-color:#e0dad1;
 }
 
+.textbuttonb {
+	font-size:90%; 
+	cursor:default;
+	background-color:#e0dad1;
+}
+
 .textbutton:hover {
 	background-color:#ccc2b3;
 }
 
 .textbutton:active {
 	background-color:#b8a994;
+}
+
+.textbuttonb:hover {
+	background-color:#ccc2b3;
+}
+
+.textbuttonb:active {
+	background-color:#b8a994;
+}
+
+.textbuttonb a {
+	text-decoration:none;
+	color:black;
 }
 
 .endpoint {
@@ -112,7 +131,7 @@ div:target::before {
   content: "▶";
 }
 
-.itxtua, .itxtru {
+.itxtua, .itxtru, .regionshide, .regionselector {
 	display:none;
 }
 
@@ -148,4 +167,40 @@ div:target::before {
 .rightcontaineryetagain {
 	margin:auto; 
 	padding-left:7px;
+}
+
+.rgsreset {
+	background-color:#cc8673;
+}
+
+.figdiv {
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%, 0);
+	padding: 20px;
+	background-color:#ebe7e0;
+	display: none;
+}
+
+.figdiv a{
+	background-color:#e0dad1;
+}
+
+.figdiv img{
+	max-width:90vw;
+}
+
+.figdescr {
+	margin:auto; 
+	font-size:117%;
+}
+
+.imgcall a {
+	background-color:#e0dad1;
+	text-decoration:none;
+	color:black;
+}
+
+.imgcall a:hover {
+	background-color:#ccc2b3;
 }
