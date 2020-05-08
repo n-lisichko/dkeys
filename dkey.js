@@ -1,7 +1,7 @@
 function posressel() {
-	var elements = document.getElementsByClassName("restaxon");
+	var elements = document.getElementsByClassName("restaxon"); 
 	for(var i = 0; i < elements.length; i++){
-		elements[i].style.backgroundColor = "#f5f3f0"; 
+		elements[i].style.backgroundColor = "#f5f3f0";
 		elements[i].style.borderLeft = "7px solid #f5f3f0";
 	}
 	for (var k = 0, j = arguments.length; k < j; k++){
@@ -10,17 +10,17 @@ function posressel() {
 		elements[i].style.backgroundColor = "#ecc893";
 		elements[i].style.borderLeft = "7px solid #98661b";
 	}
-	}
+	} 
 }
 
 function posstesel() {
-	var elements = document.getElementsByClassName("thesis");
+	var elements = document.getElementsByClassName("thesis"); 
 	for(var i = 0; i < elements.length; i++){
 		elements[i].style.backgroundColor = "#f5f3f0";
 	}
-	var elements = document.getElementsByClassName("antithesis");
+	var elements = document.getElementsByClassName("antithesis"); 
 	for(var i = 0; i < elements.length; i++){
-		elements[i].style.backgroundColor = "#f5f3f0";
+		elements[i].style.backgroundColor = "#f5f3f0"; 
 	}
 	for (var k = 0, j = arguments.length; k < j; k++){
 	var elements = document.getElementsByClassName(arguments[k]);
@@ -30,6 +30,7 @@ function posstesel() {
 	}
 	
 }
+
 
 function stbmset() {
 		for (var k = 0, j = arguments.length; k < j; k++){
